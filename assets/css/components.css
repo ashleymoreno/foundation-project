@@ -335,7 +335,7 @@
 
 body{
 .marketing-site-hero {
-  background: url() top right no-repeat;
+  background: url(https://images.pexels.com/photos/3983671/pexels-photo-3983671.jpeg?cs=srgb&dl=woman-in-white-shirt-decorating-cake-3983671.jpg&fm=jpg) top right no-repeat;
   height: 65vh;
   background-size: cover;
   display: -webkit-flex;
@@ -376,7 +376,13 @@ body{
     padding-left: 50%;
   }
 
-
+.subheader-hero {
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
 
 
 

@@ -21,7 +21,8 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+   }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -213,13 +214,17 @@ body {
 
 .marketing-site-hero-content h1 {
   font-size: 32px;
+  color: #FFFFFF;
 }
+
 
 .marketing-site-hero-content .button.round {
   border-radius: 5000px;
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 0;
+  color:#FFFFFF;
+  background-color:#F5CDDE; 
 }
 
 @media screen and (min-width: 40em) {

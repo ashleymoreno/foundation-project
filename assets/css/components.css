@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 .topbar-responsive {
-  background: #2c3840;
+  background: #FFFFFF;
   padding: 1rem 1.5rem;
 }
 
 .topbar-responsive .topbar-responsive-logo {
-  color: #fefefe;
+  color: #000000;
   vertical-align: middle;
 }
 
 .topbar-responsive .menu {
-  background: #2c3840;
+  background: #FFFFFF;
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -19,12 +19,12 @@
 }
 
 .topbar-responsive .menu a {
-  color: #fefefe;
+  color: #000000;
   transition: color 0.15s ease-in;
 }
 
 .topbar-responsive .menu a:hover {
-  color: #c6d1d8;
+  color: #F5CDDE;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -34,15 +34,15 @@
 }
 
 .topbar-responsive .menu .topbar-responsive-button {
-  color: #fefefe;
-  border-color: #fefefe;
+  color: #000000;
+  border-color: #000000;
   border-radius: 5000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .topbar-responsive .menu .topbar-responsive-button:hover {
-  color: #c6d1d8;
-  border-color: #c6d1d8;
+  color: #F5CDDE;
+  border-color: #000000;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -131,7 +131,7 @@
 
 .ecommerce-header {
   width: 100%;
-  background-color: #fefefe;
+  background-color: #FFFFFF;
 }
 
 .ecommerce-header .logo {
@@ -238,7 +238,7 @@
 }
 
 .ecommerce-header-off-canvas .menu a {
-  color: #8a8a8a;
+  color: #000000;
 }
 
 .ecommerce-header-mobile {
@@ -300,7 +300,7 @@
 }
 
 .ecommerce-header-mobile-right .fa {
-  color: #fefefe;
+  color: #FFFFFF;
   font-size: 1.5rem;
 }
 
@@ -316,21 +316,21 @@
 
 .ecommerce-header-search-exandable input[type=search]:focus {
   width: 120px;
-  background-color: #fefefe;
+  background-color: #FFFFFF;
   border-color: #000000;
   box-shadow: 0 0 5px #000000(23, 121, 186, 0.5);
 }
 
 .ecommerce-header-search-exandable input:-moz-placeholder {
-  color: #8a8a8a;
+  color: #FFFFFF;
 }
 
 .ecommerce-header-search-exandable input::-webkit-input-placeholder {
-  color: #8a8a8a;
+  color: #000000;
 }
 
 .ecommerce-header-search-exandable input[type=search]:hover {
-  background-color: #fefefe;
+  background-color: #F5CDDE;
 }
 
 body{
@@ -368,6 +368,7 @@ body{
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 0;
+  color:#F5CDDE;
 }
 
 @media screen and (min-width: 40em) {
@@ -376,33 +377,6 @@ body{
   }
 
 
-.social-footer {
-  padding: 1rem;
-  background: #8a8a8a;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social-footer .social-footer-icons li:last-of-type {
-  margin-right: 0;
-}
-
-.social-footer .social-footer-icons .fa {
-  font-size: 1.3rem;
-  color: #fefefe;
-}
-
-.social-footer .social-footer-icons .fa:hover {
-  color: #4a4a4a;
-  transition: color 0.3s ease-in;
-}
 
 
 

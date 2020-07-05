@@ -175,7 +175,7 @@ html {
           box-sizing: inherit; }
 
 
-
+/*! Our code */
 body {
   margin: 0;
   padding: 0;
@@ -237,6 +237,92 @@ body {
     font-weight: normal;
     line-height: 1.4;
     color: #FFFFFF;
+   }
+
+.breaktext{
+  text-align: center;
+  font-size:20px;
+  font-family:"Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color:#000000;
+}
+.marketing-site-content-section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.marketing-site-content-section .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color:#FFFFFF;
+  background-color:#F5CDDE;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-img {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+.marketing-site-content-section .marketing-site-content-section-block {
+  padding: 1rem;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  background: #F9DED7;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-block {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    padding: 2rem;
+  }
+}
+.marketing-site-content-section-block-header {
+  font-size: 24px;
+  text-align: center;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 13px;
+  text-align: center;
 }
 .about-the-author {
   background-color: #fefefe;
@@ -246,6 +332,7 @@ body {
 
 .about-the-author .separator-left {
   text-align: left;
+  color:#000000;
 }
 
 .about-the-author .separator-left::before, .about-the-author .separator-left::after {
@@ -257,10 +344,13 @@ body {
   -webkit-order: 1;
       -ms-flex-order: 1;
           order: 1;
+  color:#000000;
+
 }
 
 .about-the-author .separator-left::after {
   clear: both;
+  color:#000000;
 }
 
 .about-the-author .separator-left::after {
@@ -269,9 +359,12 @@ body {
   border-bottom: 0.125rem solid #1779ba;
   margin: 0.3rem auto 0;
   margin-left: 0;
+  color:#000000;
 }
 .about-the-author .author-title {
   text-transform: uppercase;
+  color:#000000;
+  text-align: center;
 }
 
 
@@ -632,13 +725,18 @@ h1, .h1 {
   font-size: 1.5rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  text-align:center; }
+
 
 h2, .h2 {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem; 
+  text-align:center;
+  color:#000000;
+}
 
 h3, .h3 {
   font-size: 1.1875rem;
@@ -668,7 +766,8 @@ h6, .h6 {
   h1, .h1 {
     font-size: 3rem; }
   h2, .h2 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    text-align:center; }
   h3, .h3 {
     font-size: 1.9375rem; }
   h4, .h4 {

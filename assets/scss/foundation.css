@@ -57,3 +57,58 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: File to import not found or unreadable: vendor/normalize.\A        Load paths:\A          /Applications/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver CC 2019/Configuration/SassFrameworks/base\A         on line 9 of /Users/ashnamomin/Desktop/WEB 2/foundation-project/assets/scss/foundation.scss\A \A 4:  * https://get.foundation\A 5:  * Licensed under MIT Open Source\A 6:  */\A 7: \A 8: // --- Dependencies ---\A 9: @import 'vendor/normalize';\A 10: @import '../_vendor/sassy-lists/stylesheets/helpers/missing-dependencies';\A 11: @import '../_vendor/sassy-lists/stylesheets/helpers/true';\A 12: @import '../_vendor/sassy-lists/stylesheets/functions/contain';\A 13: @import '../_vendor/sassy-lists/stylesheets/functions/purge';\A 14: @import '../_vendor/sassy-lists/stylesheets/functions/remove';"; }
+.product-card {
+  background-color: $white;
+  border: 1px solid $light-gray;
+  padding: 1rem;
+  margin-bottom: 1.5rem;  
+}
+
+.product-card-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.product-card-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.product-card-desc {
+  color: $dark-gray;
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.85rem;
+}
+
+.product-card-price {
+  color: darken($dark-gray,30%);
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.product-card-sale {
+  color: $medium-gray;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
+}
+
+.product-card-colors {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+

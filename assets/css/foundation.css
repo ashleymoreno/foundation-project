@@ -183,7 +183,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #FFFFFF;
+  color: #C55776;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -214,7 +214,8 @@ body {
 
 .marketing-site-hero-content h1 {
   font-size: 32px;
-  color: #FFFFFF;
+  color: #00000000
+  ;
 }
 
 
@@ -258,8 +259,8 @@ body {
   border-radius: 5000px;
   text-transform: uppercase;
   margin-bottom: 0;
-  color:#FFFFFF;
-  background-color:#F5CDDE;
+  color:#C55776;
+  background-color:rgba(155, 129, 140, 0.158);
 }
 
 .marketing-site-content-section .marketing-site-content-section-img {
@@ -292,7 +293,7 @@ body {
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
-  background: #F9DED7;
+  background: #ffffff;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

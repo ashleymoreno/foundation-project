@@ -214,7 +214,7 @@ body {
 
 .marketing-site-hero-content h1 {
   font-size: 32px;
-  color: #00000000
+  color: #
   ;
 }
 
@@ -224,8 +224,8 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 0;
-  color:#FFFFFF;
-  background-color:#F5CDDE; 
+  color:#C55776;
+  background-color:#ffffff; 
 }
 
 @media screen and (min-width: 40em) {
@@ -318,7 +318,7 @@ body {
 }
 .marketing-site-content-section-block-header {
   font-size: 24px;
-  text-align: center;
+  text-align: ;
 }
 
 .marketing-site-content-section-block-subheader {

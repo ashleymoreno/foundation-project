@@ -5741,7 +5741,7 @@ html.is-reveal-open {
 }
 
 .topbar-responsive .menu a {
-  color: #000000;
+  color: #C55776;
   transition: color 0.15s ease-in;
 }
 
@@ -5756,15 +5756,15 @@ html.is-reveal-open {
 }
 
 .topbar-responsive .menu .topbar-responsive-button {
-  color: #000000;
-  border-color: #000000;
+  color: #C55776;
+  border-color: #C55776;
   border-radius: 6000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .topbar-responsive .menu .topbar-responsive-button:hover {
   color: #F5CDDE;
-  border-color: #000000;
+  border-color: #F5CDDE;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -6081,9 +6081,9 @@ html.is-reveal-open {
               -ms-grid-row-align: bottom;
           align-self: bottom;
   justify-self: right;
-  }
+}
 
-  
+
 .contact-us-section {
   padding: 2rem;
   background: #fefefe;
@@ -6126,8 +6126,10 @@ html.is-reveal-open {
 }
 
 .contact-us-section .responsive-embed {
-  margin-bottom: 0;
-  padding-bottom: 55%;
+  margin-bottom: 20px;
+  margin-bottom: 55px;
+  margin-left:20px;
+  margin-right:20px; 
 }
 
 .contact-us-form input[type=text],
@@ -6152,11 +6154,12 @@ html.is-reveal-open {
   border-radius: 5000px;
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color:#C55776;
 }
 
 .contact-us-form-actions .contact-us-file-button {
   background: transparent;
-  color: #8a8a8a;
+  color:#C55776;
 }
 
 .contact-us-list {
@@ -6189,6 +6192,9 @@ html.is-reveal-open {
 .contact-us-list .phone::before {
   content: '\f098';
 }
+
+
+
 
 
 
